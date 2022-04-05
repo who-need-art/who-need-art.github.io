@@ -1144,7 +1144,7 @@ h1, h2, h3, h4, h5, h6 {
   background-position: center center;
   background-repeat: no-repeat;
   position: relative;
-  height: 400px;
+  height: 300px;
 }
 .wedding-events .desc {
   padding: 2em;
@@ -1697,4 +1697,16 @@ h1, h2, h3, h4, h5, h6 {
 }
 .qbootstrap-cover .logo {
   border-radius: 50%;
+}
+p.description {
+  text-align: left;
+}
+ul.experience {
+  list-style-type: none;
+  font-weight: 700;
+  padding: 0;
+  margin: 0;
+}
+.desc p {
+  margin-bottom: 0.5em;
 }

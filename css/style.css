@@ -746,7 +746,7 @@ h1, h2, h3, h4, h5, h6 {
   background: #fef6f8;
   z-index: -1;
 }
-.couple img {
+.couple img.portrait {
   width: 300px;
   margin: 0 auto;
   margin-bottom: 40px;
@@ -1709,4 +1709,24 @@ ul.experience {
 }
 .desc p {
   margin-bottom: 0.5em;
+}
+.portfolio {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 1em;
+  margin-bottom: 1em;
+}
+.portfolio img {
+  display: block !important;
+  max-width: 100%;
+  height: auto;
+  border: 3px solid #fff;
+}
+.portfolio .gallery {
+  margin: 0;
+}
+.portfolio .col-md-4, .portfolio .col-sm-4 {
+  left: none;
+  flex-basis: 100% !important;
 }
